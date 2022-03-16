@@ -1,9 +1,9 @@
-package domain.cliente;
+package domain.vendedor;
 
 import co.com.sofka.domain.generic.AggregateEvent;
-import domain.cliente.valor.*;
+import domain.vendedor.valor.*;
 
-public class Cliente extends AggregateEvent<ClienteId> {
+public class Vendedor extends AggregateEvent<VendedorId> {
 
     protected Sucursal_Ventas sucursal_ventas;
     protected Medio_Cobro medio_cobro;
@@ -13,11 +13,11 @@ public class Cliente extends AggregateEvent<ClienteId> {
     protected Direccion direccion;
 
 
-    public Cliente(ClienteId entityId) {
+    public Vendedor(VendedorId entityId) {
         super(entityId);
     }
 
-    public Cliente(ClienteId entityId, Sucursal_Ventas sucursal_ventas, Medio_Cobro medio_cobro, Historial historial, Nombre nombre, Documento documento, Direccion direccion) {
+    public Vendedor(VendedorId entityId, Sucursal_Ventas sucursal_ventas, Medio_Cobro medio_cobro, Historial historial, Nombre nombre, Documento documento, Direccion direccion) {
         super(entityId);
         this.sucursal_ventas = sucursal_ventas;
         this.medio_cobro = medio_cobro;

@@ -1,7 +1,6 @@
 package domain.vehiculo.valor;
 
 import co.com.sofka.domain.generic.Identity;
-import domain.cliente.valor.Sucursal_VentasId;
 
 public class Valor_MercadoId extends Identity {
 

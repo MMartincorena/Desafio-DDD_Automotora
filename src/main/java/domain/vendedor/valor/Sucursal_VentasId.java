@@ -1,7 +1,6 @@
-package domain.cliente.valor;
+package domain.vendedor.valor;
 
 import co.com.sofka.domain.generic.Identity;
-import domain.empleado.valor.EmpleadoId;
 
 public class Sucursal_VentasId extends Identity {
 

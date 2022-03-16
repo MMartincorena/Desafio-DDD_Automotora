@@ -1,7 +1,6 @@
 package domain.empleado.valor;
 
 import co.com.sofka.domain.generic.ValueObject;
-import domain.cliente.valor.Localizacion;
 
 public class Direccion implements ValueObject<Direccion.Props> {
 

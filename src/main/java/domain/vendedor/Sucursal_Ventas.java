@@ -1,9 +1,9 @@
-package domain.cliente;
+package domain.vendedor;
 
 import co.com.sofka.domain.generic.Entity;
-import domain.cliente.valor.Localizacion;
-import domain.cliente.valor.Nombre;
-import domain.cliente.valor.Sucursal_VentasId;
+import domain.vendedor.valor.Localizacion;
+import domain.vendedor.valor.Nombre;
+import domain.vendedor.valor.Sucursal_VentasId;
 
 public class Sucursal_Ventas extends Entity<Sucursal_VentasId> {
 
