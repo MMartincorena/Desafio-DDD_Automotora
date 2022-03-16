@@ -12,4 +12,9 @@ public class Ventas extends Entity<VentasId> {
     public Ventas(VentasId entityId) {
         super(entityId);
     }
+
+    /** Getters */
+    public Historial getHistorial() {
+        return historial;
+    }
 }

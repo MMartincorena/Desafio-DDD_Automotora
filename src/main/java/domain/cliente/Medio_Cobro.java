@@ -13,5 +13,7 @@ public class Medio_Cobro extends Entity<Medio_CobroId> {
         super(entityId);
     }
 
-
+    public TipoMedio getTipoMedio() {
+        return tipoMedio;
+    }
 }

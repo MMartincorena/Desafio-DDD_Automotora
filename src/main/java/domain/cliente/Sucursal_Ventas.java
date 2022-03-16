@@ -19,7 +19,6 @@ public class Sucursal_Ventas extends Entity<Sucursal_VentasId> {
     public Nombre nombre() {
         return nombre;
     }
-
     public Localizacion localizacion() {
         return localizacion;
     }

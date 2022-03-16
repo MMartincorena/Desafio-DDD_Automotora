@@ -16,4 +16,8 @@ public class Documento implements ValueObject<Documento> {
     public Documento value() {
         return null;
     }
+
+    public Documento getDocumento() {
+        return documento;
+    }
 }

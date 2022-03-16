@@ -1,0 +1,5 @@
+
+o	java:S116"ZRename this field "sucursal_ventas" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ÍÜá
+p	java:S116	"VRename this field "medio_cobro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÊ¶ýøÿÿÿÿ
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¨Š‰ýÿÿÿÿ8ôÍ§£ù/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¨Š‰ýÿÿÿÿ8õÍ§£ù/
