@@ -11,7 +11,7 @@ public class CargoModificado extends DomainEvent{
 
 
     public CargoModificado(EmpleadoId empleadoId, Cargo cargo) {
-        super("sofka.empleado.cargomodificado");
+        super("sofka.empleado.modificarcargo");
         this.empleadoId = empleadoId;
         this.cargo = cargo;
     }
