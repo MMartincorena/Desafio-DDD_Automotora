@@ -13,7 +13,7 @@ public class EmpleadoCreado extends DomainEvent {
     private final Direccion direccion;
 
     public EmpleadoCreado(EmpleadoId empleadoId, Cargo cargo, Salario salario, Nombre nombre, Documento documento, Direccion direccion) {
-        super("sofka.boleta.crearempleado");
+        super("sofka.empleado.crearempleado");
         this.empleadoId = empleadoId;
         this.cargo = cargo;
         this.salario = salario;
