@@ -15,10 +15,6 @@ b
 2src/main/java/domain/empleado/valor/Direccion.java,9\1\91861251ce62ff6bc9c7c7ede7ad1cecc0a8648e
 Y
 )src/main/java/domain/empleado/Compra.java,4\7\47f2a544731b4255c22408c41a5c29b93ef0dc56
-[
-+src/main/java/domain/empleado/Empleado.java,d\8\d88d5db3be4a8a4851a46cc583ebfa87c7060e86
-W
-'src/main/java/domain/empleado/Meta.java,e\6\e6f63dd7e235b69378f22210fa46c906480998bc
 a
 1src/main/java/domain/cliente/valor/Direccion.java,0\f\0fb41897dfd4f71190cf2774e7198e6952936a9c
 d
